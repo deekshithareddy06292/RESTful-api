@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Blog API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Blog</h1>
+        
+        <div class="create-post">
+            <h2>Create Post</h2>
+            <form id="postForm">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Content" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="postsList"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
